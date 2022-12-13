@@ -1,0 +1,32 @@
+{
+  "name": "NFL",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "rm -rf node_modules/.cache && next build && next export -o dist/ && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.17",
+    "@next/bundle-analyzer": "^13.0.6",
+    "next": "12.1.6",
+    "next-compose-plugins": "^2.2.1",
+    "next-i18next": "^13.0.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "swiper": "^8.2.2",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {
+    "debug": "^4.3.4",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "gh-pages": "^4.0.0",
+    "i18next": "^22.4.3"
+  }
+}

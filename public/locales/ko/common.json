@@ -1,0 +1,73 @@
+{
+  "hero_main": "DAO를 생태계를 구성할 사람을 찾고있습니다.",
+  "about_dao_title": "About No Free Lunch",
+  "about_dao_des": "활동한 만큼 보상을 얻는 DAO 커뮤니티를 만들고 있어요.\n커뮤니티가 활성화되면 사이드 프로젝트를 거버넌스를 통해 자유롭게 생성하고 운영하는 분산 자율 조직을 만드는것이 목표입니다.\n\n블록체인을 잘 몰라도, DAO에 관하여 잘 몰라도 좋아요.\n새로운 혁신을 통해 일하는 패러다임의 변화를 이끌 사람들 어서오세요!",
+  "gov_item": [
+    {
+      "title": "Definition",
+      "image": "svg/management.svg",
+      "des": "거버넌스란 공동의 목표를 달성하기 위하여 모든 이해 당사자들이 책임감을 가지고 투명하게 의사 결정을 수행할 수 있게 하는 제반 장치입니다."
+    },
+    {
+      "title": "On the blockchain",
+      "image": "svg/padlock.svg",
+      "des": "이에 블록체인에서의 거버넌스는 프로젝트의 창립자들이 아닌 해당 프로젝트 코인을 보유하고 있는 투자자가 투표로 안건을 채택하고 결정합니다."
+    },
+    {
+      "title": "Goals",
+      "image": "svg/checked.svg",
+      "des": "우리는 이러한 블록체인 내의 거버넌스를 통해 중요하고 생각하는 것과 앞으로의 프로젝트의 미래를 스스로 결정 할 수 있습니다."
+    }
+  ],
+  "vision_sub_title": "NoFreeLunch가 생각하는 미래는",
+  "vision_des": "DAO에 속해 장소에 귀속되지 않고 양질의 콘텐츠를 발행하며 수익을 얻습니다.",
+  "our_gov": [
+    {
+      "index": "1",
+      "title": "Step1",
+      "des": "노프런의 거버넌스는 프로젝트의 시작부터 진행됩니다. 창립자가 추진하는 프로젝트가 아닌 구성원들이 직접 프로젝트를 제안하고 이를 투표를 통해 선정합니다. "
+    },
+    {
+      "index": "2",
+      "title": "Step2",
+      "des": "노프런의 프로젝트는 채택 이후에도 구성원들 이외에는 누구도 관여할 수 없는 오롯이 구성원들에 의한 프로젝트가 될 것 입니다. "
+    },
+    {
+      "index": "3",
+      "title": "Step3",
+      "des": "구성원들이 만들어 나가는 프로젝트이기에 구성원들이 기여하는 만큼 프로젝트의 미래가 결정됩니다. "
+    }
+  ],
+  "team": [
+    {
+      "image": "img/team/team_1.png",
+      "name": "제언",
+      "role": "PM",
+      "des": "인일능지 기백지 인십능지 기천지"
+    },
+    {
+      "image": "img/team/team_2.png",
+      "name": "Woody",
+      "role": "PM",
+      "des": "취향껏 살아갑시다. 내가 살아가고 사랑할 삶이니까요!"
+    },
+    {
+      "image": "img/team/team_3.png",
+      "name": "레몬",
+      "role": "PM",
+      "des": "게임 하는 것처럼 살자"
+    },
+    {
+      "image": "img/team/team_4.png",
+      "name": "조이",
+      "role": "Developer",
+      "des": ""
+    },
+    {
+      "image": "img/team/siro_pic.png",
+      "name": "시로",
+      "role": "Developer",
+      "des": "나는야 감자 개발자!"
+    }
+  ]
+}

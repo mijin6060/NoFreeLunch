@@ -6,15 +6,12 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
 
-const repo = "https://cliffclimber-721.github.io/nofreelunch";
+const repo = "https://mijin6060.github.io/NoFreeLunch";
 const nextConfig = {
   reactStrictMode: true,
   assetPrefix: !debug ? `/${repo}/` : "",
   eslint: { ignoreDuringBuilds: true },
-  i18n: {
-    locales: ["en", "ko"],
-    defaultLocale: "ko",
-  },
+  i18n,
   images: {
     domains: ["storage.googleapis.com"],
   },

@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "rm -rf node_modules/.cache && next build && next export -o dist/ && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -19,6 +18,7 @@
     "next-i18next": "^13.0.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-i18next": "^12.1.1",
     "swiper": "^8.2.2",
     "waypoints": "^4.0.1"
   },
@@ -27,6 +27,6 @@
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
     "gh-pages": "^4.0.0",
-    "i18next": "^22.4.3"
+    "i18next": "^22.4.5"
   }
 }

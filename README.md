@@ -50,6 +50,6 @@ open http://localhost:3000
 ```
 
 
+# 🔗 Official Link
 
-  
-
+https://no-free-lunch.vercel.app/
